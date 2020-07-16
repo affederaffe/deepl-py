@@ -20,6 +20,10 @@ setup(
     author='affederaffe',
 
     classifiers=[
+        # How mature is this project? Common values are
+        #   3 - Alpha
+        #   4 - Beta
+        #   5 - Production/Stable
         'Development Status :: 3 - Alpha',
 
         'Intended Audience :: Developers',
@@ -38,8 +42,8 @@ setup(
     keywords='deepl, translator, development',
 
     py_modules=["deepl.py"],
-
-    python_requires='>=3.5, <4',
+    
+    packages=find_packages(where='src'),
 
     project_urls={
         'Bug Reports': 'https://github.com/affederaffe/deepl-py/issues',
