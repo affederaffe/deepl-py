@@ -11,6 +11,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+__version__ = "0.0.1"
 
 def translate(targetLang, stringArray, srcTextArray=[""], targetTextArray=[""]):
     ### import paths or let the user input them + browser detection ###
