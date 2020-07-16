@@ -25,6 +25,12 @@ print(Translate("DE", ["Hello, world!", "This is a test."], ["This"], ["Das"]).t
 >>>['Hallo, Welt!', 'Das ist ein Test.']
 ```
 
+# modules needed:
+```bat
+pip install pyperclip
+pip install selenium
+```
+
 
 
 Thanks for reading, im new to the hole Github stuff and this is mir first "big" python program so please be kind :sweat_smile:
