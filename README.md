@@ -8,9 +8,12 @@ A deepl translator integration made with selenium
 * under 100 lines of code
 * compatible with firefox and chromium-based browsers
 # How to use it
+```bat
+pip install deeplpy
+```
 ```python
-from deepl import Translate
-Translate(targetLang, stringArray, srcTextArray, targetTextArray).translate()
+from deeplpy import translate
+translate.translate(targetLang, stringArray, srcTextArray, targetTextArray)
 ```
 You only have to put in **targetLang** and **stringArray**, use *srcTextArray* and *targetTextArray* if you want to add an entry to the glossary.
 On the first time you also have to specify your path to the browser.exe and the driver.exe.
