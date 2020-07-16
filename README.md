@@ -5,7 +5,7 @@ A deepl translator integration made with selenium
 * easy to use
 * just a few (or none) integrations for python
 * it's free
-* only 100 lines of code
+* under 100 lines of code
 * compatible with firefox and chromium-based browsers
 # How to use it
 ```python
@@ -30,7 +30,20 @@ print(Translate("DE", ["Hello, world!", "This is a test."], ["This"], ["Das"]).t
 pip install pyperclip
 pip install selenium
 ```
-
+# supported languages:
+| language      | language code |
+| :-----------: |:-------------:|
+| German        | DE            |
+| English       | EN            |
+| French        | FR            |
+| Spanish       | ES            |
+| Portuguese    | PT            |
+| Italian       | IT            |
+| Dutch         | NL            |
+| Polish        | PL            |
+| Russian       | RU            |
+| Japanese      | JA            |
+| Chinese       | ZH            |
 
 
 Thanks for reading, im new to the hole Github stuff and this is mir first "big" python program so please be kind :sweat_smile:
