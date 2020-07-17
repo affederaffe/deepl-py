@@ -21,7 +21,7 @@ Does NOT work on the command line.
 
 # Example
 ```python
-from deepl import Translate
+from deepl import translate
 print(translate.translate("DE", ["Hello, world!", "This is a test."], ["This"], ["Das"]))
 ```
 **Output**
@@ -31,9 +31,10 @@ print(translate.translate("DE", ["Hello, world!", "This is a test."], ["This"], 
 
 # modules needed:
 ```bat
-pip install pyperclip
 pip install selenium
 ```
+You will need a driver to run this. More information: https://www.selenium.dev/documentation/en/webdriver/driver_requirements/#quick-reference
+
 # supported languages:
 | language      | language code |
 | :-----------: |:-------------:|
