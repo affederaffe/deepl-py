@@ -21,7 +21,7 @@ On the first time you also have to specify your path to the browser.exe and the 
 # Example
 ```python
 from deepl import Translate
-print(Translate("DE", ["Hello, world!", "This is a test."], ["This"], ["Das"]).translate())
+print(translate.translate("DE", ["Hello, world!", "This is a test."], ["This"], ["Das"]))
 ```
 **Output**
 ```python
