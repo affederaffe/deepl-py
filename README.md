@@ -16,8 +16,8 @@ from deeplpy import translate
 translate.translate(targetLang, stringArray, srcTextArray, targetTextArray)
 ```
 You only have to put in **targetLang** and **stringArray**, use *srcTextArray* and *targetTextArray* if you want to add an entry to the glossary.
-On the first time you also have to specify your path to the browser.exe and the driver.exe.
-Does NOT work on the command line.
+On the first time you also have to specify your path to the browser .exe and the driver .exe.
+Also you will need a driver to run this. More information: https://www.selenium.dev/documentation/en/webdriver/driver_requirements/#quick-reference
 
 # Example
 ```python
@@ -34,7 +34,6 @@ print(translate.translate("DE", ["Hello, world!", "This is a test."], ["This"], 
 pip install selenium
 (pip install pyperclip for non-headless)
 ```
-You will need a driver to run this. More information: https://www.selenium.dev/documentation/en/webdriver/driver_requirements/#quick-reference
 
 # supported languages:
 | language      | language code |
