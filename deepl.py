@@ -86,6 +86,7 @@ def translate(targetLang, stringArray, srcTextArray=[""], targetTextArray=[""]):
         # wait till deepl finished translating #
         while driver.find_element_by_xpath('//*[@id="dl_translator"]/div[1]/div[6]').get_attribute("class") == "lmt__mobile_share_container lmt__mobile_share_container--inactive":
             time.sleep(0.1)
+        time.sleep(0.5)
         copyElement.click()
         translatedArray.append(pyperclip.paste())
         pyperclip.copy(clipboardOld)
