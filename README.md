@@ -32,6 +32,7 @@ print(translate.translate("DE", ["Hello, world!", "This is a test."], ["This"], 
 # modules needed:
 ```bat
 pip install selenium
+(pip install pyperclip for non-headless)
 ```
 You will need a driver to run this. More information: https://www.selenium.dev/documentation/en/webdriver/driver_requirements/#quick-reference
 
