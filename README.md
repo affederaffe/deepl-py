@@ -32,7 +32,6 @@ print(translate.translate("DE", ["Hello, world!", "This is a test."], ["This"], 
 # modules needed:
 ```bat
 pip install selenium
-(pip install pyperclip for non-headless)
 ```
 
 # supported languages:
@@ -51,4 +50,4 @@ pip install selenium
 | Chinese       | ZH            |
 
 
-Thanks for reading, im new to the hole Github stuff and this is mir first "big" python program so please be kind :sweat_smile:
+Thanks for reading, im new to the hole Github stuff and this is mir first "big" python program :sweat_smile:
