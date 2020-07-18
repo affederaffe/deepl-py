@@ -3,7 +3,8 @@ A deepl translator integration made with selenium
 
 # Why should I use deepl-py?
 * easy to use
-* just a few (or none) integrations for python
+* glossary support
+* just a few integrations for python
 * it's free
 * under 100 lines of code
 * compatible with firefox and chromium-based browsers
