@@ -13,7 +13,7 @@ pip install deeplpy
 ```
 ```python
 import deeplpy
-translate.translate(targetLang, stringArray, srcTextArray, targetTextArray)
+deeplpy.translate(targetLang, stringArray, srcTextArray, targetTextArray)
 ```
 You only have to put in **targetLang** and **stringArray**, use *srcTextArray* and *targetTextArray* if you want to add an entry to the glossary.
 On the first time you also have to specify your path to the browser .exe and the driver .exe.
