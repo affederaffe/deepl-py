@@ -50,4 +50,4 @@ pip install selenium
 | Chinese       | ZH            |
 
 
-Thanks for reading, im new to the hole Github stuff and this is mir first "big" python program :sweat_smile:
+Thanks for reading, im new to the whole Github stuff and this is my first "big" python program :sweat_smile:
