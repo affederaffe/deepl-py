@@ -12,7 +12,7 @@ A deepl translator integration made with selenium
 pip install deeplpy
 ```
 ```python
-from deeplpy import translate
+import deeplpy
 translate.translate(targetLang, stringArray, srcTextArray, targetTextArray)
 ```
 You only have to put in **targetLang** and **stringArray**, use *srcTextArray* and *targetTextArray* if you want to add an entry to the glossary.
@@ -21,8 +21,8 @@ Also you will need a driver to run this. More information: https://www.selenium.
 
 # Example
 ```python
-from deepl import translate
-print(translate.translate("DE", ["Hello, world!", "This is a test."], ["This"], ["Das"]))
+import deeplpy
+print(deeplpy.translate("DE", ["Hello, world!", "This is a test."], ["This"], ["Das"]))
 ```
 **Output**
 ```python
