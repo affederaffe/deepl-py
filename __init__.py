@@ -52,7 +52,7 @@ def translate(targetLang, stringArray, srcTextArray=[""], targetTextArray=[""]):
     driver.get("https://deepl.com/translator")
     languageMenuButtonElement = driver.find_element_by_xpath('//*[@id="dl_translator"]/div[1]/div[4]/div[1]/div[1]/div[1]/button')
     languageMenuButtonElement.click()
-    time.sleep(0.25)
+    time.sleep(0.1)
     languageButton = driver.find_elements_by_css_selector('button[dl-lang = "{0}"]'.format(targetLang))
     languageButton[1].click()
     if srcTextArray:
@@ -87,7 +87,7 @@ def translate(targetLang, stringArray, srcTextArray=[""], targetTextArray=[""]):
         # wait till deepl finished translating #
         while driver.find_element_by_xpath('//*[@id="dl_translator"]/div[1]/div[6]').get_attribute("class") == "lmt__mobile_share_container lmt__mobile_share_container--inactive":
             time.sleep(0.1)
-        time.sleep(0.5)
+        time.sleep(0.1)
         outputElements = driver.find_elements_by_css_selector('button[class="lmt__translations_as_text__text_btn"]')
         translatedArray.append(outputElements[0].get_attribute("innerHTML"))
         stringArrayPos += 1
