@@ -1,7 +1,7 @@
-# deepl-py
+# deeplpy
 A deepl translator integration made with selenium
 
-# Why should I use deepl-py?
+# Why should I use deeplpy?
 * easy to use
 * glossary support
 * just a few integrations for python
